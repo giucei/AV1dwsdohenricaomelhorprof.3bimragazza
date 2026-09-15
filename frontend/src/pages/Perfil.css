@@ -1,0 +1,181 @@
+.perfil-page {
+  min-height: 100vh;
+  background: #f4f6fb;
+  font-family: Arial, sans-serif;
+  color: #111827;
+}
+
+.perfil-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 7%;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.perfil-brand {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.perfil-header p {
+  margin: 5px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.perfil-header button {
+  padding: 10px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: white;
+  color: #374151;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.perfil-header button:hover {
+  background: #f3f4f6;
+}
+
+.perfil-content {
+  width: 86%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 55px 0;
+}
+
+.perfil-welcome {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.perfil-icon {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: #111827;
+  font-size: 27px;
+}
+
+.perfil-welcome p {
+  margin: 0 0 5px;
+  color: #6b7280;
+}
+
+.perfil-welcome h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.perfil-card {
+  padding: 32px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.07);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card-title h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.status {
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.perfil-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.perfil-info div {
+  padding: 18px;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.perfil-info span {
+  display: block;
+  margin-bottom: 7px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.perfil-info strong {
+  font-size: 16px;
+  color: #111827;
+}
+
+.security-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 22px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #eef2ff;
+}
+
+.security-card > span {
+  font-size: 25px;
+}
+
+.security-card strong {
+  color: #111827;
+}
+
+.security-card p {
+  margin: 5px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.perfil-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #6b7280;
+}
+
+@media (max-width: 650px) {
+  .perfil-header {
+    padding: 18px 5%;
+  }
+
+  .perfil-content {
+    width: 90%;
+    padding: 35px 0;
+  }
+
+  .perfil-info {
+    grid-template-columns: 1fr;
+  }
+
+  .perfil-card {
+    padding: 22px;
+  }
+}
